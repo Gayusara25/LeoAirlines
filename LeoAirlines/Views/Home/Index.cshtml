@@ -1,0 +1,69 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html>
+<head>
+    <link href="~/css/style.css" rel="stylesheet" />
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/responsiveslides.min.js"></script>
+    <a href="~/fonts/glyphicons-halflings-regular.eot"></a>
+    <a href="~/fonts/glyphicons-halflings-regular.ttf"></a>
+    <a href="~/fonts/glyphicons-halflings-regular.woff"></a>
+    <a href="~/fonts/glyphicons-halflings-regular.woff2"></a>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="header_top">
+                <div class="logo">
+                    <a href="index.html">
+                        <h1>MPHASIS</h1>
+                        <h2>AIRLINES</h2>
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li class="active"><a href="../Home/Index">HOME</a></li>
+                        <li><a href="../Home/About">ABOUT US</a></li>
+                        <li><a href="../Home/Services">SERVICES</a></li>
+                        <li><a href="../Home/Contact">CONTACT</a></li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="header_bottom">
+
+                <script src="js/jquery.min.js"></script>
+                <script src="js/responsiveslides.min.js"></script>
+                <script>// You can also use "$(window).load(function() {"
+    $(function () {
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+         auto: true,
+		 nav: true,
+		 speed: 500,
+		 namespace: "callbacks",
+      });
+    });</script>
+                <div class="slider">
+                    <ul class="rslides" id="slider1">
+                        <li><img src="~/images/1.png" alt=""></li>
+                        <li><img src="~/images/2.png" alt=""></li>
+                        <li><img src="~/images/3.png" alt=""></li>
+                        <li><img src="~/images/4.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      
+        <div class="footer">
+            
+            <div class="copy_right">
+                <p style="color:#A9A9A9; font-size:17px"> <b>© 2023 Mphasis Airlines. All Rights Reserved.</b></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
